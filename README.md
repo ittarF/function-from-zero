@@ -1,3 +1,5 @@
+[![CI](https://github.com/ittarF/function-from-zero/actions/workflows/main.yml/badge.svg)](https://github.com/ittarF/function-from-zero/actions/workflows/main.yml)
+
 # function-from-zero
 A repo to learn functions
 
