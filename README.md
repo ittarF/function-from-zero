@@ -3,13 +3,13 @@
 # function-from-zero
 A repo to learn functions
 
-# Step 1: Configure Development environment
+## Step 1: Configure Development environment
 
 * Configure GitHub Codespaces or the equivalent (Cloud9, etc)
 * Create scaffold for the structure of proect: 'Makefile' 'requirements.txt'
 * Optional (setup virtualenv)
 
-# Step 2: Get interactive debugging working
+## Step 2: Get interactive debugging working
 
 * Use IPython and ipdb
 
@@ -20,5 +20,5 @@ y = 2
 print(x + 1)
 ````
 
-
+## Step 3: Build a library and use it
 
