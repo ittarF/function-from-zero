@@ -1,10 +1,7 @@
 from mylib.logistics import (
     distance_between_two_points,
-    get_coordinates,
     cities_list,
-    travel_time,
     CITIES,
-    total_distance,
 )
 
 
