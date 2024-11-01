@@ -41,7 +41,6 @@ def cities_list():
     """
     Return the list of cities
     """
-
     return [city[0] for city in CITIES]
 
 
@@ -58,3 +57,16 @@ def travel_time(city1, city2, speed=60):
     total_distance = distance_between_two_points(point1, point2)
     hours = round(total_distance / speed)
     return hours
+
+
+def total_distance(city_list):
+    """
+    Calculate the total distance between a list of cities
+    """
+    total_distance = 0
+    for i in range(len(city_list) - 1):
+        total_distance += distance_between_two_points(
+            city_list[i][1], city_list[i + 1][1]
+        )
+    print(f"Total distance: {total_distance} km")
+    return total_distance
