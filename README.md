@@ -22,3 +22,6 @@ print(x + 1)
 
 ## Step 3: Build a library and use it
 
+## Step 4: Run with Docker
+
+docker run -p 127.0.0.1:8080:8080 9bfab3c28edb
