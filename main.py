@@ -7,7 +7,7 @@ from mylib.logistics import (
     get_coordinates,
     travel_time,
 )
-# docker run -p 127.0.0.1:8080:8080 9bfab3c28edb
+
 from mylib.wiki import get_wiki_keywords
 
 
