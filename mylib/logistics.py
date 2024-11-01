@@ -46,10 +46,10 @@ def cities_list():
 
 # estimate the travel time between two cities by car.
 # assume the speed is 60 miles per hour
-def travel_time(city1, city2, speed=60):
+def travel_time(city1, city2, speed=90):
     """
     Estimate the travel time between two cities by car.
-    Assume the default speed is 60 miles per hour
+    Assume the default speed is 90 km per hour
     """
 
     point1 = get_coordinates(city1)
