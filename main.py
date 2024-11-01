@@ -8,7 +8,7 @@ from mylib.logistics import (
     travel_time,
 )
 
-# from mylib.wiki import get_wiki_keywords
+from mylib.wiki import get_wiki_keywords
 
 
 app = FastAPI()
